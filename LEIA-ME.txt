@@ -1,0 +1,76 @@
+LUCAS HERNANDEZ — SITE INSTITUCIONAL
+=====================================
+
+COMO ABRIR
+----------
+Dê dois cliques no arquivo "index.html". Abre em qualquer navegador,
+sem precisar instalar nada.
+
+COMO PUBLICAR
+--------------
+Suba a pasta inteira (index.html, css/, js/, assets/) para o servidor
+ou serviço de hospedagem escolhido. O "index.html" precisa ficar na
+raiz.
+
+COMO MUDAR TEXTOS, WHATSAPP E INSTAGRAM
+-----------------------------------------
+Edite só o arquivo "assets/dados.js". É o único arquivo que você
+precisa tocar. Altere apenas o texto entre aspas e salve. Não apague
+vírgulas, chaves { } ou colchetes [ ]. Depois é só atualizar a página
+no navegador (F5).
+
+CONFIRME O NÚMERO DO WHATSAPP
+-------------------------------
+O número recebido foi "98 8431-3429" (10 dígitos). Celulares no Brasil
+normalmente têm 9 dígitos após o DDD. Coloquei o número exatamente
+como recebido em "assets/dados.js" (contato.whatsappNumero), mas vale
+testar o botão depois de publicar — se o link não abrir a conversa
+certa, provavelmente falta o "9" no início do número, e daí é só
+ajustar essa linha.
+
+FOTOS
+--------
+As fotos da pasta "REFERENCIAS" já foram incorporadas ao site:
+"LUCAS HERNANDEZ.jpg" virou a foto do Hero, e "MODELO 1" a "MODELO 5"
+viraram a galeria de Transformações (5 fotos). Elas estão em
+"assets/fotos/", em ".jpg" e ".webp" (redimensionadas para carregar
+mais rápido). Nenhum corte, filtro ou alteração de cor foi aplicado
+ao Lucas ou aos modelos — a pele, o cabelo e a roupa continuam
+exatamente como nas fotos originais, que seguem intactas em
+"outputs/REFERENCIAS/".
+
+A foto do Hero (principal.jpg/.webp) é a versão que você mesmo editou
+em "REFERENCIAS/LUCAS HERNANDEZ.jpg", com a assinatura "Lucas
+Hernandez — Hair artist" já embutida na imagem. Ela está no site
+exatamente como está: nenhum corte, cor ou fundo foi alterado, só
+convertida para ".webp" (mesma imagem, formato mais leve).
+
+Se quiser trocar alguma foto no futuro, é só substituir o arquivo
+correspondente em "assets/fotos/" mantendo o mesmo nome
+(principal, modelo-01 a modelo-05).
+
+TEXTOS AINDA EM ABERTO
+-------------------------
+Na seção "Sobre" (assets/dados.js, chave "sobre"), os dois parágrafos
+estão como espaço reservado porque ainda não recebi a história
+profissional do Lucas nem informações de formação/experiência. Edite
+"sobre.texto1" e "sobre.texto2" quando tiver esse conteúdo.
+
+O QUE JÁ ESTÁ PRONTO
+-----------------------
+- Cabeçalho fixo com menu (desktop e celular) e rolagem suave
+- Hero com título animado e botão de WhatsApp
+- Seção Sobre, Expertise (6 serviços, sem preços) e Transformações
+  (galeria editorial para 6 fotos)
+- Seção Método Lucas Hernandez, sem inventar formato, preço ou data
+- Contato final, rodapé, botão flutuante de WhatsApp
+- Responsivo (mobile primeiro), animações discretas com fallback para
+  quem desativa animação no sistema, dados estruturados (SEO) básicos
+
+ESTRUTURA DE PASTAS
+-----------------------
+index.html
+css/style.css
+js/main.js
+assets/dados.js       (edite este)
+assets/fotos/          (adicione as fotos aqui — pasta ainda não existe)
